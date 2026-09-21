@@ -1,0 +1,50 @@
+<svg width="400" height="100" 
+  xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
+  <style>
+    .main {
+      fill: #d62728;
+      stroke: #d62728;
+    }
+    .secondary {
+      fill: #1f77b4;
+      stroke: #1f77b4;
+    }
+    .main-line {
+      stroke-width: 2;
+    }
+    .text {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    .text-red {
+      fill: #d62728;
+    }
+    .text-blue {
+      fill: #1f77b4;
+    }
+  </style>
+  <line class="main main-line" x1="50" y1="20" x2="350" y2="20"/>
+  <text class="main text-red" x="70" y="35">a</text>
+  <circle class="main" cx="100" cy="20" r="3"/>
+  <text class="text text-red" x="100" y="10">A</text>
+  <circle class="main" cx="300" cy="20" r="3"/>
+  <text class="text text-red" x="300" y="10">B</text>
+
+  <circle class="main" cx="120" cy="20" r="3"/>
+  <text class="text text-red" x="130" y="10">M</text>
+  <circle class="main" cx="280" cy="20" r="3"/>
+  <text class="text text-red" x="270" y="10">N</text>
+
+  <circle class="main" cx="80" cy="20" r="3"/>
+  <text class="text text-red" x="70" y="10">P</text>
+  <circle class="main" cx="320" cy="20" r="3"/>
+  <text class="text text-red" x="330" y="10">Q</text>
+
+  <circle class="secondary" cx="80" cy="80" r="3"/>
+  <text class="text secondary" x="90" y="90">R</text>
+  <circle class="secondary" cx="320" cy="80" r="3"/>
+  <text class="text secondary" x="330" y="90">S</text>
+</svg>
+

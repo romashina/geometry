@@ -1,0 +1,47 @@
+<svg width="520" height="200" xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
+  <style>
+    .line-main {
+      stroke: #d62728;
+      stroke-width: 2;
+      fill: none;
+    }
+    .point {
+      fill: #d62728;
+      stroke: #d62728;
+    }
+    .text {
+      fill: #d62728;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Случай 1: треугольник -->
+  <line class="line-main" x1="40" y1="150" x2="160" y2="150"/>
+  <line class="line-main" x1="40" y1="150" x2="100" y2="40"/>
+  <line class="line-main" x1="100" y1="40" x2="160" y2="150"/>
+  <circle class="point" cx="40" cy="150" r="4"/>
+  <text class="text" x="40" y="170">A</text>
+  <circle class="point" cx="160" cy="150" r="4"/>
+  <text class="text" x="160" y="170">B</text>
+  <circle class="point" cx="100" cy="40" r="4"/>
+  <text class="text" x="100" y="28">C</text>
+
+  <!-- Случай 2: две параллельные и одна секущая -->
+  <line class="line-main" x1="200" y1="35" x2="300" y2="35"/>
+  <line class="line-main" x1="200" y1="120" x2="300" y2="120"/>
+  <line class="line-main" x1="250" y1="20" x2="250" y2="165"/>
+  <circle class="point" cx="250" cy="35" r="4"/>
+  <text class="text" x="240" y="24">P</text>
+  <circle class="point" cx="250" cy="120" r="4"/>
+  <text class="text" x="240" y="133">Q</text>
+
+  <!-- Случай 3: три прямые проходят через одну точку -->
+  <line class="line-main" x1="400" y1="20" x2="400" y2="180"/>
+  <line class="line-main" x1="350" y1="100" x2="450" y2="100"/>
+  <line class="line-main" x1="350" y1="20" x2="450" y2="180"/>
+  <circle class="point" cx="400" cy="100" r="4"/>
+  <text class="text" x="410" y="90">O</text>
+</svg>
