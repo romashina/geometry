@@ -4,6 +4,7 @@
     .line-red {
       stroke: red;
       stroke-width: 2;
+      fill: none;
     }
     .font-red {
       font-family: sans-serif;
