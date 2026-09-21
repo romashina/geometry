@@ -1,0 +1,41 @@
+<svg width="400" height="200" 
+  xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
+  <style>
+    .main {
+      fill: #d62728;
+      stroke: #d62728;
+    }
+    .secondary {
+      fill: #1f77b4;
+      stroke: #1f77b4;
+    }
+    .main-line {
+      stroke-width: 2;
+    }
+    .text {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    .text-red {
+      fill: #d62728;
+    }
+    .text-blue {
+      fill: #1f77b4;
+    }
+  </style>
+  <line class="main main-line" x1="50" y1="100" x2="350" y2="100"/>
+  <text class="text text-red" x="200" y="120">a</text>
+  <circle class="main" cx="150" cy="100" r="3"/>
+  <text class="text text-red" x="150" y="80">A</text>
+  <circle class="main" cx="250" cy="100" r="3"/>
+  <text class="text text-red" x="250" y="80">B</text>
+  <circle class="secondary" cx="100" cy="50" r="3"/>
+  <text class="text text-blue" x="100" y="30">P</text>
+  <circle class="secondary" cx="200" cy="150" r="3"/>
+  <text class="text text-blue" x="200" y="170">Q</text>
+  <circle class="secondary" cx="300" cy="50" r="3"/>
+  <text class="text text-blue" x="300" y="30">R</text>
+</svg>
+
