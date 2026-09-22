@@ -1,0 +1,65 @@
+<svg width="220" height="120" 
+    xmlns="http://www.w3.org/2000/svg" style="background: transparent;">
+    <style>
+    .line-red {
+      stroke: red;
+      stroke-width: 2;
+      fill: none;
+    }
+    .line-blue {
+      stroke: blue;
+      stroke-width: 2;
+      fill: none;
+    }
+    .line-green {
+      stroke: green;
+      stroke-width: 2;
+      fill: none;
+    }
+    .font-red {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: red;
+    }
+    .font-blue {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: blue;
+    }
+    .font-green {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: green;
+    }
+    .fill-red {
+      fill: red;
+    }
+    .fill-blue {
+      fill: blue;
+    }
+    .fill-green {
+      fill: green;
+    }
+  </style>
+    # AOB
+    <line class="line-red" x1="10" y1="20" x2="200" y2="20"/> 
+    <circle class="fill-red" cx="10" cy="20" r="3"/>
+    <text class="font-red" x="10" y="40" text-anchor="middle">A</text>
+    <circle class="fill-red" cx="100" cy="20" r="3"/>
+    <text class="font-red" x="100" y="40" text-anchor="middle">O</text>
+    <circle class="fill-red" cx="200" cy="20" r="3"/>
+    <text class="font-red" x="200" y="40" text-anchor="middle">B</text>
+    # PQR
+    <line class="line-blue" x1="10" y1="100" x2="200" y2="100"/> 
+    <circle class="fill-blue" cx="10" cy="100" r="3"/>
+    <text class="font-blue" x="10" y="85" text-anchor="middle">P</text>
+    <circle class="fill-blue" cx="100" cy="100" r="3"/>
+    <text class="font-blue" x="100" y="85" text-anchor="middle">Q</text>
+    <circle class="fill-blue" cx="200" cy="100" r="3"/>
+    <text class="font-blue" x="200" y="85" text-anchor="middle">R</text>
+</svg>
+
+
