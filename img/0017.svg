@@ -21,6 +21,11 @@
       stroke-width: 2;
       fill: none;
     }
+    .line-white {
+      stroke: white;
+      stroke-width: 2;
+      fill: none;
+    }
     .font-red {
       font-family: sans-serif;
       font-weight: 600;
@@ -45,6 +50,12 @@
       font-size: 12px;
       fill: yellow;
     }
+    .font-white {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: white;
+    }
     .fill-red {
       fill: red;
     }
@@ -57,22 +68,28 @@
     .fill-yellow {
       fill: yellow;
     }
+    .fill-white {
+      fill: white;
+    }
   </style>
-    # hk
+    # angle AOB
     <polyline class="line-blue" points="150,10 10,110 150,110"/> 
-    <text class="font-blue" x="160" y="10" text-anchor="middle">k</text>
-    <text class="font-blue" x="160" y="110" text-anchor="middle">h</text>
-    # line line
-    <line class="line-yellow" x1="0" y1="60" x2="170" y2="60"/>
-    # dots
-    <circle class="fill-green" cx="135" cy="60" r="3"/>
-    <text class="font-green" x="145" y="55" text-anchor="middle">A</text>
-    <circle class="fill-green" cx="110" cy="60" r="3"/>
-    <text class="font-green" x="120" y="55" text-anchor="middle">B</text>
-    <circle class="fill-red" cx="30" cy="60" r="3"/>
-    <text class="font-red" x="30" y="50" text-anchor="middle">N</text>
-    <circle class="fill-red" cx="60" cy="60" r="3"/>
-    <text class="font-red" x="65" y="50" text-anchor="middle">M</text>
+    <circle class="fill-blue" cx="150" cy="10" r="3"/>
+    <text class="font-blue" x="160" y="10" text-anchor="middle">A</text>
+    <circle class="fill-white" cx="10" cy="110" r="3"/>
+    <text class="font-white" x="5" y="105" text-anchor="middle">O</text>
+    <circle class="fill-blue" cx="150" cy="110" r="3"/>
+    <text class="font-blue" x="160" y="110" text-anchor="middle">B</text>
+
+    # ray yellow
+    <line class="line-yellow" x1="10" y1="110" x2="135" y2="60"/>
+    <circle class="fill-green" cx="110" cy="70" r="3"/>
+    <text class="font-green" x="145" y="55" text-anchor="middle">C</text>
+    # ray red
+    <line class="line-red" x1="10" y1="110" x2="50" y2="10"/>
+    <circle class="fill-red" cx="44" cy="25" r="3"/>
+    <text class="font-red" x="60" y="25" text-anchor="middle">D</text>
+
 </svg>
 
 
